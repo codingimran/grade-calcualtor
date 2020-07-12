@@ -7,107 +7,116 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <section class="background">
-      <div class="container">
-        <div class="top-title">Javascript Grade Calculator</div>
+    <header>
+      <div class="top-title">
+        <p>
+          Javascript Grade Calculator
+        </p>
+        <span class="my-name">Imran Khan</span>
+      </div>
+    </header>
+    <main>
+      <section class="calculator-section">
         <div class="screen">
-          <div class="screen-body">
-            <div class="screen-body-item left">
-              <div class="app-title">
-                <p class="app-title-text animated infinite pulse">
-                  Imran<br />Khan <br />
-                  Calculator
-                </p>
-              </div>
+          <div class="app-form">
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Bangla"
+                id="bangla"
+              />
             </div>
-            <div class="screen-body-item">
-              <div class="app-form">
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Bangla"
-                    id="bangla"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Bangla 2nd"
-                    id="bangla2"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="English"
-                    id="english"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="English 2nd"
-                    id="english2"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Mathematics"
-                    id="math"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Science"
-                    id="science"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Social Science"
-                    id="social-science"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="History"
-                    id="history"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Islam and moral"
-                    id="islam"
-                  />
-                </div>
-                <div class="app-form-group">
-                  <input
-                    type="text"
-                    class="app-form-control"
-                    placeholder="Agriculture"
-                    id="agri"
-                  />
-                </div>
-              </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Bangla 2nd"
+                id="bangla2"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="English"
+                id="english"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="English 2nd"
+                id="english2"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Mathematics"
+                id="math"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Science"
+                id="science"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Social Science"
+                id="social-science"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="History"
+                id="history"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Islam and moral"
+                id="islam"
+              />
+            </div>
+            <div class="app-form-group">
+              <input
+                type="text"
+                class="app-form-control"
+                placeholder="Agriculture"
+                id="agri"
+              />
+            </div>
+            <div class="">
+              <button
+                type="button"
+                class="app-form-control button"
+                onclick="clacGrade()"
+              >
+                Show
+              </button>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="result-section">
+          <div class="showdata">
+            <p id="showData"></p>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./js/script.js"></script>
   </body>
 </html>
