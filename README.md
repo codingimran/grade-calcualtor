@@ -1,2 +1,2 @@
-Grade Calculator By Imran Khan.
+Grade Calculator By Imran Khan
 😍
